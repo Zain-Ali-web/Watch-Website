@@ -10,7 +10,7 @@
     height: 640px;
 }
 
-.header {
+/* .header {
     height: 150px;
     width: 100%;
     align-items: center;
@@ -18,7 +18,7 @@
     text-align: center;
     display: flex;
     justify-content: center;
-}
+} */
 
 .centermiddle {
     height: 350px;
@@ -67,5 +67,35 @@
 
 .my-button:hover {
     background-color: darkred;
+}
+.button{
+    background-color: blue;
+    height: 10px;
+    width: 20%;
+}
+.header {
+    height: 150px;
+    width: 100%;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; 
+}
+
+.header-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: green;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.header-btn:hover {
+    background-color: orange;
 }
 
